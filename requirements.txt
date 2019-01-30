@@ -1,0 +1,4 @@
+coeus-test>=0.1.11
+coeus-test-unity>=0.1.11
+coeus-test-appium>=0.1.10
+pytest>=4.0.1
