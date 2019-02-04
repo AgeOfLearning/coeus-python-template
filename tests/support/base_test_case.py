@@ -82,8 +82,8 @@ class BaseTestCase(unittest.TestCase):
         cls.teardown(cls)
         cls.cli.stop()
         cls.cli = None
-        cls.appium = None
         cls.appium.stop()
+        cls.appium = None
 
     @staticmethod
     def get_simulator():
